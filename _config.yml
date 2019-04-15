@@ -148,4 +148,5 @@ deploy:
   type: sftp
   host: 47.89.13.13
   user: root
+  privateKey: ~/.ssh
   remotePath: /root/www
