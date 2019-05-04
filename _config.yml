@@ -149,4 +149,4 @@ deploy:
   host: 47.89.13.13
   user: root
   privateKey: C:\Users\Administrator\.ssh\id_rsa
-  remotePath: /root/www
+  remotePath: /usr/share/nginx/html
