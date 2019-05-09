@@ -1,11 +1,11 @@
 ---
-title: spring指南
+title: spring5.1.6中文指南
 date: 2018-01-03 13:35:35
 tags:
 categories:
 - spring
 ---
-摘要
+spring中文文档
 <!-- more -->
 ## 1.spring概述
 ### 什么是spring
@@ -21,7 +21,7 @@ categories:
 ### 子项目
 子项目名称|介绍
 -------- |--
-Spring Shell|交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell交互式shell
+Spring Shell|交
 
 <table border="1">
   <tr>
