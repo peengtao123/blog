@@ -5,7 +5,11 @@ tags:
 ---
 这部分深入介绍spring boot的细节，将学习到主要特性。
 <!-- more -->
-## spring应用
+# 一、Spring文档
+# 二、开始
+# 三、使用springboot
+# 四、springboot特性
+## 23.spring应用
 ### CommandLineRunner的使用
 Spring boot的CommandLineRunner接口主要用于实现在应用初始化后，去执行一段代码块逻辑，这段初始化代码在整个应用生命周期内只会执行一次。
 我们可以使用以下三种方式使用CommandLineRunner接口：
@@ -92,3 +96,19 @@ class ApplicationStartupRunnerTwo implements CommandLineRunner {
 ## web服务
 ## 创建自己的自动化配置
 ## 支持Kotlin
+# 五、生产特性
+# 六、部署springboot
+# 七、springboot CLI
+# 八、 构建插件
+# 最佳实践
+## 78.嵌入webserver
+### 使用另一个webserver
+### 使webserver失效
+### 改变HTTP端口
+### 使用随机未使用端口
+### 运行时发现端口
+### 使用压缩
+### 配置SSL
+### 配置HTTP/2
+### 配置webserver
+# 附录
