@@ -12,3 +12,5 @@ druid参考
 # 4.[MyBatis-Spring](http://www.mybatis.org/spring/zh/index.html)
 
 # 5.[MyBatis](http://www.mybatis.org/mybatis-3/zh/index.html)
+
+# 6.[MyBatis-Spring-Boot-Starter](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
