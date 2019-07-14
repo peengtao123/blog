@@ -17,3 +17,5 @@ druid参考
 # 5.[MyBatis](http://www.mybatis.org/mybatis-3/zh/index.html)
 
 # 6.[MyBatis-Spring-Boot-Starter](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
+
+# 7.[archiva](https://archiva.apache.org/docs/2.2.4/quick-start.html "maven仓库")
