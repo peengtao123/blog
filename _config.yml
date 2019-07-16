@@ -47,10 +47,10 @@ widgets:
         desc: 易百教程
         icon: fas fa-cube
         url: https://www.yiibai.com/
-      - name: AXKit
-        desc: iOS开源库
+      - name: ESCAScript
+        desc: ESCAScript 6入门
         icon: fas fa-cube
-        url: https://xaoxuu.com/wiki/axkit/
+        url: http://es6.91fox.cn/
       - name: NoticeBoard
         desc: iOS开源库
         icon: fas fa-cube

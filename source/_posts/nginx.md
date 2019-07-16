@@ -6,7 +6,7 @@ categories:
 - 设施
 - 服务器
 ---
-
+s
 <!-- more -->
 # nginx安装
 系统平台：Centos 7

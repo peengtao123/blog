@@ -19,3 +19,9 @@ druid参考
 # 6.[MyBatis-Spring-Boot-Starter](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
 
 # 7.[archiva](https://archiva.apache.org/docs/2.2.4/quick-start.html "maven仓库")
+
+```puml
+@startuml
+class A
+@enduml
+```
