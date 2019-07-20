@@ -47,3 +47,7 @@ netstat -nptl
 curl http://127.0.0.1:2375/info
 
 ```
+# 进入容器执行
+```bash
+docker exec -it es /bin/bash
+```

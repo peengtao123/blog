@@ -79,3 +79,11 @@ rpm e 3 # 移除一个包
 ```bash
 # yum -y install rpm-build
 ```
+
+# 查看版本信息
+```bash
+cat /etc/issue 
+cat /etc/redhat-release
+uname -a 
+
+```
