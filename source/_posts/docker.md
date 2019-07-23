@@ -51,3 +51,7 @@ curl http://127.0.0.1:2375/info
 ```bash
 docker exec -it es /bin/bash
 ```
+# 拷贝容器内 Nginx 默认配置文件到本地当前目录下的 conf 目录
+```bash
+docker cp 6dd4380ba708:/etc/nginx/nginx.conf ~/nginx/conf
+```
