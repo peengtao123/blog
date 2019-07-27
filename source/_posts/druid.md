@@ -24,4 +24,4 @@ druid参考
 
 # 9. [禅道](https://www.zentao.net/)需求管理、工程工具
 
-# 10. gitlab
+# 10. [gitlab](https://about.gitlab.com/install/)
