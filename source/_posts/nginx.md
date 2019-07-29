@@ -2,9 +2,6 @@
 title: nginx安装
 date: 2019-03-26 21:06:23
 tags:
-categories:
-- 设施
-- 服务器
 ---
 s
 <!-- more -->

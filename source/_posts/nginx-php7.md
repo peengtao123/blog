@@ -2,9 +2,6 @@
 title: Nginx+PHP7源码安装配置
 date: 2018-03-19 21:36:12
 tags:
-categories:
-- 设施
-- 服务器
 ---
 这是摘要
 

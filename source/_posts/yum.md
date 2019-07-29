@@ -1,10 +1,7 @@
 ---
 title: yum
 date: 2018-08-08 18:28:16
-tags:
-categories:
-- 设施
-- 操作系统
+tags: 
 ---
 这是摘要
 

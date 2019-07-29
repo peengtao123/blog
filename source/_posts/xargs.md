@@ -2,9 +2,6 @@
 title: xargs
 date: 2018-06-08 18:56:52
 tags:
-categories:
-- 设施
-- 操作系统
 ---
 这是摘要
 
