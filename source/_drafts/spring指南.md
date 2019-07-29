@@ -2,8 +2,6 @@
 title: spring5.1.6中文指南
 date: 2018-01-03 13:35:35
 tags:
-categories:
-- spring
 ---
 spring中文文档
 <!-- more -->

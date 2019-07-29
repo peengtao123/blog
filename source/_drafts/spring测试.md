@@ -2,8 +2,6 @@
 title: spring测试
 date: 2019-03-25 20:01:11
 tags:
-categories:
-- spring
 ---
 这是摘要
 

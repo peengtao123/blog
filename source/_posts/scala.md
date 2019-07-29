@@ -2,8 +2,6 @@
 title: scala
 date: 2019-03-31 23:29:45
 tags:
-categories:
-- 语言
 ---
 scala是一门多范式编程语言。
 <!-- more -->

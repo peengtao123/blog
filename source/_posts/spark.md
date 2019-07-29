@@ -2,8 +2,6 @@
 title: spark
 date: 2019-03-28 22:32:36
 tags:
-categories:
-- 大数据
 ---
 这是摘要
 
