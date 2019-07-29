@@ -2,9 +2,6 @@
 title: springBOOT
 date: 2019-04-02 21:25:04
 tags:
-categories:
-- 设施
-- 中间件
 ---
 springboot介绍以及基本操作指南
 <!-- more -->
