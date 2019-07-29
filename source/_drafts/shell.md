@@ -8,3 +8,7 @@ tags:
 <!-- more -->
 
 # shell
+
+```bash
+docker run -d -p 80:80 --name nginx -v ~/nginx/www:/usr/share/nginx/html -v ~/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v ~/nginx/logs:/var/log/nginx nginx
+```
