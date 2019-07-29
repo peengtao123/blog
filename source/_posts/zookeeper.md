@@ -2,7 +2,6 @@
 title: 学习ZooKeeper
 date: 2019-03-04 18:25:41
 categories:
-- 大数据
 ---
 这是摘要
 

@@ -2,8 +2,6 @@
 title: Gitlab
 date: 2019-03-11 12:46:03
 tags:
-categories:
-- 设施
 ---
 这是摘要
 

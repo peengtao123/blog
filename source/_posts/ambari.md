@@ -2,9 +2,6 @@
 title: ambari
 date: 2019-03-31 23:00:58
 tags: 前端
-categories:
-- 设施
-- 容器
 ---
 这是摘要
 

@@ -1,12 +1,8 @@
 ---
 title: docker
 date: 2019-03-10 11:36:16
-categories:
-- 设施
-- 容器
 tags: 
 - docker
-- 容器
 ---
 这是摘要
 <!-- more -->

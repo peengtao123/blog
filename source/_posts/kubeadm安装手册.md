@@ -2,9 +2,6 @@
 title: kubeadm安装手册
 date: 2019-03-22 12:38:04
 tags:
-categories:
-- 设施
-- 容器
 ---
 这是摘要
 

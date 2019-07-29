@@ -1,15 +1,11 @@
 ---
 title: linux运维常见问题
 date: 2018-03-09 19:35:53
-tags:
-categories:
-- 设施
-- 操作系统
+tags: 
+- linux
 ---
 这是摘要
-
 <!-- more -->
-
 # linux桌面安装
 1、查看可以安装的软件包
 ```bash
