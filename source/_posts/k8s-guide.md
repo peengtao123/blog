@@ -2,6 +2,7 @@
 title: k8s-guide
 date: 2019-07-28 10:44:44
 tags:
+- 容器
 ---
 安装后体验k8s基本功能
 <!-- more -->

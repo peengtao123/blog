@@ -1,5 +1,5 @@
 ---
-title: linux常用运维命令
+title: linux优化
 date: 2019-07-29 13:40:15
 tags:
 - linux

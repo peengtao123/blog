@@ -2,6 +2,7 @@
 title: k8s安装教程
 date: 2019-03-21 17:08:30
 tags:
+- 容器
 - kubernetes
 ---
 这是摘要

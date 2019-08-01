@@ -3,7 +3,7 @@ title: nginx安装
 date: 2019-03-26 21:06:23
 tags:
 ---
-s
+nginx使用技术
 <!-- more -->
 # nginx安装
 系统平台：Centos 7

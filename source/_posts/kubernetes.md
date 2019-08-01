@@ -3,6 +3,7 @@ title: 安装kubernetes 1.13
 date: 2018-03-15 14:06:32
 tags: 
 - kubernetes
+- 容器
 categories:
 ---
 这是摘要

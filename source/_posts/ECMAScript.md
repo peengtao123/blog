@@ -2,6 +2,7 @@
 title: ECMAScript
 date: 2019-03-31 21:39:49
 tags:
+- 前端
 ---
 这是摘要
 
