@@ -6,6 +6,20 @@ tags:
 ---
 常用网址
 <!-- more -->
+@startmindmap d
+* Debian
+** Ubuntu
+*** Linux Mint
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+** LMDE
+** SolydXK
+** SteamOS
+** Raspbian with a very long name
+*** <s>Raspmbc</s> => OSMC
+*** <s>Raspyfi</s> => Volumiodd
+@endmindmap
 ## 前端
 https://angular.cn/
 https://panjiachen.github.io/vue-element-admin-site/zh/guide/
@@ -28,8 +42,13 @@ https://ejs.bootcss.com/
 https://www.cnblogs.com/mirandachen/p/9826886.html
 https://blog.csdn.net/xuaa/article/details/52262586
 http://www.ruanyifeng.com/blog/2015/05/commonjs-in-browser.html
+http://www.ruanyifeng.com/blog/2019/02/npx.html
+http://electronjs.org/docs
+https://es.xiaoleilu.com/010_Intro/10_Installing_ES.html
 ## 运维
-
+https://www.teambition.com/
+https://www.cnblogs.com/mymelody/p/9366131.html
+http://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html
 ## 容器
 https://www.kubernetes.org.cn/5551.html
 https://docs.docker.com/
@@ -43,3 +62,6 @@ https://blog.csdn.net/kikajack/article/details/80301159
 https://www.yisu.com/
 http://www.vagrantbox.es/
 https://blog.csdn.net/hellozpc/article/details/81436980
+## 大数据
+https://help.aliyun.com/product/28066.html?spm=a2c4g.11186623.6.540.4c5f6de4wvVsJK
+https://help.aliyun.com/
