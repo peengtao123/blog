@@ -6,7 +6,8 @@ tags:
 ---
 常用网址
 <!-- more -->
-@startmindmap d
+```puml
+@startmindmap
 * Debian
 ** Ubuntu
 *** Linux Mint
@@ -20,6 +21,7 @@ tags:
 *** <s>Raspmbc</s> => OSMC
 *** <s>Raspyfi</s> => Volumiodd
 @endmindmap
+```
 ## 前端
 https://angular.cn/
 https://panjiachen.github.io/vue-element-admin-site/zh/guide/
