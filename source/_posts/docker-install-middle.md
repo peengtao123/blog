@@ -15,7 +15,6 @@ docker run -d --hostname my-rabbit --name rabbit -p 15672:15672 -p 5672:5672 -p 
 1. 下载镜像
 这里使用了wurstmeister/kafka和wurstmeister/zookeeper这两个版本的镜像
 
-
 docker pull wurstmeister/zookeeper
 docker pull wurstmeister/kafka
 在命令中运行docker images验证两个镜像已经安装完毕
@@ -32,8 +31,6 @@ docker run -d --name kafka --publish 9092:9092 --link zookeeper --env KAFKA_ZOOK
 
 3. 测试kafka
 进入kafka容器的命令行
-
- 
 
 运行 docker ps，找到kafka的 CONTAINER ID，运行 docker exec -it ${CONTAINER ID} /bin/bash，进入kafka容器。
 进入kafka默认目录 /opt/kafka_2.11-0.10.1.0

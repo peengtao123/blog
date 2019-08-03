@@ -16,8 +16,6 @@ yum install nodejs
 
 yum install git
 
-
-
 tar xfvz apache-ambari-2.7.3-src.tar.gz
 cd apache-ambari-2.7.3-src
 mvn versions:set -DnewVersion=2.7.3.0.0

@@ -5,9 +5,8 @@ tags:
 ---
 elk参考
 <!-- more -->
-#fd 
-
-```
+# fd
+```puml
 @startuml
 张三 -> 李四 : 我要借钱
 李四 --> 张三 : 借给你

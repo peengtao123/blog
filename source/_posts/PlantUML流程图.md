@@ -5,41 +5,88 @@ tags:
 ---
 摘要
 <!-- more -->
+
+## 图
+```puml
+@startuml
+skinparam handwritten true
+skinparam backgroundColor #EEEBDC
+actor 使用者
+participant "頭等艙" as A
+participant "第二類" as B
+participant "最後一堂課" as 別的東西
+使用者-> A: 完成這項工作
+activate A
+A -> B: 創建請求
+activate B
+B -> 別的東西: 創建請求
+activate 別的東西
+別的東西--> B: 這項工作完成
+destroy 別的東西
+B --> A: 請求創建
+deactivate B
+A --> 使用者: 做完
+deactivate A
+@enduml
+```
+```puml
+@startuml
+robust "Web 浏览器" as WB
+concise "Web 用户" as WU
+@0
+WU is 空闲
+WB is 空闲
+@100
+WU is 等待中
+WB is 处理中
+@300
+WB is 等待中
+@enduml
+```
+
+```puml
+@startuml
+class Example {
+    + dint df()
+}
+@enduml
+```
 ## 流程
 ```puml
-start
-:"步骤1处理";
-:"步骤2处理";
-if ("条件1判断") then (true)
-    :条件1成立时执行的动作;
-    if ("分支条件2判断") then (no)
-        :"条件2不成立时执行的动作";
+@startuml
+    start
+    :"步骤1处理";
+    :"步骤2处理";
+    if ("条件1判断") then (true)
+        :条件1成立时执行的动作;
+        if ("分支条件2判断") then (no)
+            :"条件2不成立时执行的动作";
+        else
+            if ("条件3判断") then (yes)
+                :"条件3成立时的动作";
+            else (no)
+                :"条件3不成立时的动作";
+            endif
+        endif
+        :"顺序步骤3处理";
+    endif
+
+    if ("条件4判断") then (yes)
+    :"条件4成立的动作";
     else
-        if ("条件3判断") then (yes)
-            :"条件3成立时的动作";
+        if ("条件5判断") then (yes)
+            :"条件5成立时的动作";
         else (no)
-            :"条件3不成立时的动作";
+            :"条件5不成立时的动作";
         endif
     endif
-    :"顺序步骤3处理";
-endif
-
-if ("条件4判断") then (yes)
-:"条件4成立的动作";
-else
-    if ("条件5判断") then (yes)
-        :"条件5成立时的动作";
-    else (no)
-        :"条件5不成立时的动作";
-    endif
-endif
-stop
+    stop
+@enduml
 ```
 ## 组件
 --------
 ```puml
 @startuml
-
 package "组件1" {
     ["组件1.1"] - ["组件1.2"]
     ["组件1.2"] -> ["组件2.1"]
