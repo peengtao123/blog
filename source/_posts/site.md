@@ -6,6 +6,7 @@ tags:
 ---
 常用网址
 <!-- more -->
+## 这一用plantuml划mapmind
 ```puml
 @startmindmap
 * Debian

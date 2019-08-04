@@ -2,9 +2,31 @@
 title: PlantUML
 date: 2019-04-05 11:20:04
 tags:
+- PlantUML
 ---
 使用简单的文字描述画UML图
 <!-- more -->
+# 参考
+## 1时序图
+```puml
+@startsalt
+{
+{T
++ World
+++ America
++++ Canada
++++ USA
+++++ New York
+++++ Boston
++++ Mexico
+++ Europe
++++ Italy
++++ Germany
+++++ Berlin
+++ Africa
+}}
+@endsalt
+```
 ## PlantUML简介
 优秀类图源码展示
 ```puml
@@ -200,7 +222,6 @@ ClassA <|.. ClassB:实现
 @enduml
 ```
 ### 最简单的类定义
-----
 ```puml
 @startuml
 Class China {
@@ -216,7 +237,6 @@ Class China {
 @enduml
 ```
 ### 多样的类定义
-----
 ```puml
 @startuml
 Class China {
@@ -232,7 +252,6 @@ Class China {
 @enduml
 ```
 ### 静态属性和抽象方法
-----
 ```puml
 @startuml
 Class China {
@@ -301,7 +320,6 @@ List <|-- ArrayList
 ```
 ## 关于类、抽象类和接口的定义及关系
 ### 动物园的饲养员能够给各种各样的动物喂食，绘制逻辑，效果
-----
 ```puml
 @startuml
 class Feeder<<饲养员>>{
@@ -519,3 +537,74 @@ TreeSet <|-- IntTreeSet
 }
 ```
 ### 对于一些单个存在且不想展示出来的类图的类、属性和方法，我们可以将其隐藏。只需要在其类 class 前加hide即可，显示使用show
+
+## 组件图
+部署图
+```puml
+@startuml
+:df:
+cloud "d"{
+    [First]
+    [Sec]
+}
+node "web服务器"{
+    [HTTP]
+}
+node "服务器"{
+    [Server]
+    [database]
+}
+
+[HTTP] --> [Server]
+[Server] --> [database]
+[First] --> [HTTP]
+[Sec] --> [HTTP]
+
+@enduml
+```
+用例图
+```puml
+@startuml
+(*) -->[sdf] "活动1" 
+
+-->[你可以把标签说明放到这里] "活动2"
+
+-->[df] (*)
+
+@enduml
+```
+## 对象图
+```puml
+@startuml
+title "介绍各种图关系图标"
+object Object01
+object Object02
+object Object03
+object Object04
+object Object05
+object Object06
+object Object07
+object Object08
+Object01 <|-- Object02 : 继承
+Object03 *-- Object04 : 聚合
+Object05 o-- "4" Object06
+Object07 .. Object08 : some labels
+@enduml
+```
+
+## 组织结构图
+```puml
+@startwbs
+* 公司
+** 运营
+*** Complete Stakeholder Research
+*** Initial Implementation Plan
+** 研发
+*** Model of AsIs Processes Completed
+**** Model of AsIs Processes Completed1
+**** Model of AsIs Processes Completed2
+*** Measure AsIs performance metrics
+*** Identify Quick Wins
+** 营销
+@endwbs
+```

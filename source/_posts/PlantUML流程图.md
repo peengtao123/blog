@@ -2,11 +2,11 @@
 title: PlantUML流程图
 date: 2019-04-05 12:12:22
 tags:
+- PlantUML
 ---
 摘要
 <!-- more -->
-
-## 图
+## 用例图
 ```puml
 @startuml
 skinparam handwritten true
@@ -41,14 +41,6 @@ WU is 等待中
 WB is 处理中
 @300
 WB is 等待中
-@enduml
-```
-
-```puml
-@startuml
-class Example {
-    + dint df()
-}
 @enduml
 ```
 ## 流程
@@ -168,7 +160,7 @@ note "This note is connected\nto several objects." as N2
 N2 .. (Use)
 @enduml
 ```
-## 流程案例2
+## 流程案例
 ```puml
 @startuml
 title Android Broadcast procedure
@@ -209,12 +201,12 @@ ContextWrapper -> ContextImpl : sendOrderedBroadcast()
 ContextImpl -> ActivityManagerService: broadcastIntent()
 @enduml
 ```
-这
+流程图
 ```puml
 @startuml
- 
+
 title 流程图
- 
+
 (*) --> "步骤1处理"
 --> "步骤2处理"
 if "条件1判断" then
