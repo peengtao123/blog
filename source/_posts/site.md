@@ -24,6 +24,7 @@ tags:
 @endmindmap
 ```
 ## 前端
+一个有关开发的资源技术参考的网站https://www.runoob.com
 https://angular.cn/
 https://panjiachen.github.io/vue-element-admin-site/zh/guide/
 https://cn.vuejs.org/v2/guide/
@@ -68,3 +69,4 @@ https://blog.csdn.net/hellozpc/article/details/81436980
 ## 大数据
 https://help.aliyun.com/product/28066.html?spm=a2c4g.11186623.6.540.4c5f6de4wvVsJK
 https://help.aliyun.com/
+一个轻量级的SQL和参数动态生成工具库 https://blinkfox.github.io/zealot/
