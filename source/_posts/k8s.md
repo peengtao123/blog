@@ -5,7 +5,7 @@ tags:
 - 容器
 - kubernetes
 ---
-这是摘要
+两种方式安装
 <!-- more -->
 kubernetes 1.13.2 已经出来了，更新迭代比较快，安装部署一直都是对新手来说都比较麻烦，
 重装了一次，整理一下文档，大家只要安装下面一步步安装，一定能成功，有些地方如果报错请具体排查，我这里安装过程如下，希望对大家有帮助，喜欢就点赞留言，大家一起交流学习；
@@ -376,4 +376,91 @@ NAME        STATUS   ROLES    AGE     VERSION
 k8smaster   Ready    master   15m     v1.13.2
 k8snode1    Ready    <none>   3m53s   v1.13.2
 k8snode2    Ready    <none>   4m1s    v1.13.2
+```
+
+# 纯手工安装
+下载etcd安装包
+``` bash
+$ wget https://github.com/coreos/etcd/releases/download/v2.2.0/etcd-v2.2.0-linux-amd64.tar.gz
+```
+运行Etcd：
+``` bash
+etcd -name etcd \
+-data-dir /var/lib/etcd \
+-listen-client-urls http://0.0.0.0:2379,http://0.0.0.0:4001 \
+-advertise-client-urls http://0.0.0.0:2379,http://0.0.0.0:4001 \
+>> /var/log/etcd.log 2>&1 &
+```
+
+## 获取Kubernetes发布包
+Kubernetes发布包可以从Github上下载，本书使用的是V1.1.1版本：
+``` bash
+$ wget https://github.com/kubernetes/kubernetes/releases/download/v1.1.1/kubernetes.tar.gz
+```
+## 运行Master组件
+在master上需要运行如下组件
+* API server
+* Controller Manager
+* Scheduler
+* Proxy（可选）
+
+API Server
+``` bash
+$ kube-apiserver \
+--logtostderr = true --v=0 \
+--etcd_servers=http://localhost:4001 \
+--insecure-bind-address=0.0.0.0 --insecure-port=8080 \
+--service-cluster-ip-range=10.254.0.0/16 \
+>> /var/log/kube-apiserver.log 2>&1 &
+```
+运行Controller Manager：
+``` bash
+$ kube-controller-manager \
+--logtostderr=true --v=0 \
+--master=http://localhost:8080 \
+>> /var/log/kube-controller-manager.log 2>&1 &
+```
+运行Scheduler
+ ``` bash
+$ kube-scheduler \
+--logtostderr=true --v=0 \
+--master=http://localhost:8080 \
+>> /var/log/kube-scheduler.log 2>&1 &
+ ```
+ 运行Proxy
+ ``` bash
+$ kube-proxy \
+--logtostderr=true --v=0 \
+--master=http://localhost:8080 \
+>> /var/log/kube-proxy.log 2>&1 &
+ ```
+ ## 运行Node组件
+ Node节点上需要运行如下组件：
+ * Docker
+ * Kubelet
+ * Kubernetes Proxy
+
+ 运行kubelet
+ ```bash 
+$ kubelet \
+--logtostderr=true --v=0 \
+--config=/etc/kubernetes/manifests \
+--pod-infra-container-image="keveon/pause:0.8.0" \
+--address=0.0.0.0 \
+--api-servers=http://localhost:8080 \
+>> /var/log/kubelet.log 2>&1 &
+ ```
+
+## 运行pod
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+    name: hello-world
+spec:
+    restartPolicy: OnFailure
+    containers:
+    - name: hello
+      image: "ubuntu:14.04"
+      command: ["/bin/echo","hello"]
 ```

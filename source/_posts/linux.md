@@ -76,10 +76,38 @@ rpm e 3 # 移除一个包
 # yum -y install rpm-build
 ```
 
-# 查看版本信息
+## 查看版本信息
 ```bash
 cat /etc/issue 
 cat /etc/redhat-release
 uname -a 
+
+```
+
+## 修改ip
+``` bash
+$ cd /etc/sysconfig/network-scripts/
+$ vim ifcfg-enp0s3 
+TYPE="Ethernet"
+PROXY_METHOD="none"
+BROWSER_ONLY="no"
+BOOTPROTO="none"
+DEFROUTE="yes"
+IPV4_FAILURE_FATAL="no"
+IPV6INIT="yes"
+IPV6_AUTOCONF="yes"
+IPV6_DEFROUTE="yes"
+IPV6_FAILURE_FATAL="no"
+IPV6_ADDR_GEN_MODE="stable-privacy"
+NAME="enp0s3"
+UUID="e4589d40-cc7d-43a5-90c8-85aebe7c847b"
+DEVICE="enp0s3"
+ONBOOT="yes"
+IPADDR="192.168.3.12"
+PREFIX="24"
+GATEWAY="192.168.3.1"
+DNS1="192.168.3.1"
+DNS2="8.8.8.8"
+IPV6_PRIVACY="no"
 
 ```
