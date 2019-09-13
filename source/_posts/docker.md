@@ -6,9 +6,57 @@ tags:
 ---
 这是摘要
 <!-- more -->
+# 常用网站：
 [官网](https://docs.docker-cn.com/)
 [菜鸟教程](http://www.runoob.com/docker/docker-tutorial.html)
-# Docker 安装 MySQL
+# docker安装
+docker支持以下centos版本：
+* centos 6.5(64-bit)
+* centos 7(64-bit)
+
+docker要求centos内核版本高于3.10，通过uname -r命令查看内核版本
+```bash
+# uname -r
+```
+## docker安装
+移除旧的版本
+```bash
+$ sudo yum remove docker \
+                  docker-client \
+                  docker-client-latest \
+                  docker-common \
+                  docker-latest \
+                  docker-latest-logrotate \
+                  docker-logrotate \
+                  docker-selinux \
+                  docker-engine-selinux \
+                  docker-engine
+```
+安装一些必要的工具
+```bash
+sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+```
+添加软件源信息
+```bash
+sudo yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+```
+更新yum缓存
+```bash
+sudo yum makecache fast
+```
+安装docker-ce
+```bash
+sudo yum -y install docker-ce
+```
+启动docker服务
+```bash
+sudo systemctl start docker
+```
+测试运行hello world
+```bash
+[root@runoob ~]# docker run hello-world
+```
+## Docker 安装 MySQL
 ```bash
 runoob@runoob:~$ mkdir -p ~/mysql/data ~/mysql/logs ~/mysql/conf
 runoob@runoob:~/mysql$ docker pull mysql:5.7
