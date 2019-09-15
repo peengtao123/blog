@@ -4,6 +4,7 @@ categories:
   - 开源
 date: 2019-09-13 09:44:36
 tags:
+- linux
 ---
 java开发人员linux常用操作
 <!-- more -->
@@ -41,3 +42,6 @@ centos关闭防火墙的方法：
 Yum（全称为 Yellow dog Updater, Modified）是一个在Fedora和RedHat以及CentOS中的Shell前端软件包管理器。
 yum源配置目录：
 /etc/yum.repos.d/
+
+# 常用工具
+## sed
