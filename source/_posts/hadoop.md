@@ -1,5 +1,6 @@
 ---
 title: hadoop环境搭建
+comments: true
 categories:
 - 大数据
 date: 2019-10-26 04:38:13
