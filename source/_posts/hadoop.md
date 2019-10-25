@@ -1,7 +1,7 @@
 ---
 title: hadoop环境搭建
 categories:
-  - 开源
+- 大数据
 date: 2019-10-26 04:38:13
 tags:
 - 大数据
