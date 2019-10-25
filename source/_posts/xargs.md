@@ -2,6 +2,7 @@
 title: xargs
 date: 2018-06-08 18:56:52
 tags:
+- linux
 ---
 这是摘要
 

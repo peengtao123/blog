@@ -4,7 +4,7 @@ categories:
   - 开源
 date: 2019-10-26 04:38:13
 tags:
-- hadoop
+- 大数据
 ---
 这是摘要
 <!-- more -->

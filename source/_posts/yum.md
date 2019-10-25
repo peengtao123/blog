@@ -2,6 +2,7 @@
 title: yum
 date: 2018-08-08 18:28:16
 tags: 
+- linux
 ---
 这是摘要
 <!-- more -->

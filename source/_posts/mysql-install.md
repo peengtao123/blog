@@ -2,6 +2,7 @@
 title: MySql Yum Respositroy使用指导
 date: 2018-11-08 18:25:41
 tags:
+-  java
 categories:
 - 数据库
 ---

@@ -3,7 +3,6 @@ title: PlantUML时序图
 date: 2019-04-05 12:16:30
 tags:
 - PlantUML
-- 时序图
 ---
 时序图（Sequence Diagram），通过描述对象之间发送消息的时间顺序显示多个对象之间的动态协作。
 <!-- more -->
