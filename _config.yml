@@ -47,8 +47,8 @@ widgets:
         desc: 易百教程
         icon: fas fa-cube
         url: https://www.yiibai.com/
-      - name: 易百教程
-        desc: 易百教程
+      - name: afternow
+        desc: afternow
         icon: fas fa-cube
         url: https://afternow.91fox.cn/
       - name: foo
