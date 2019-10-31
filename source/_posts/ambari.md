@@ -1,7 +1,10 @@
 ---
 title: ambari
 date: 2019-03-31 23:00:58
-tags: 大数据
+categories:
+- 大数据
+tags: 
+- 大数据
 ---
 这是摘要
 

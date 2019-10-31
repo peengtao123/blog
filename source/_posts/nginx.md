@@ -2,6 +2,7 @@
 title: nginx安装
 date: 2019-03-26 21:06:23
 tags:
+-  java
 ---
 nginx使用技术
 <!-- more -->

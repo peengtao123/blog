@@ -2,6 +2,7 @@
 title: openshift
 date: 2019-04-05 10:53:34
 tags:
+-  java
 ---
 摘要
 <!-- more -->

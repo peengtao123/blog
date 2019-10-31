@@ -3,7 +3,8 @@ title: shell 教程
 categories:
   - 开源
 date: 2019-09-07 19:32:21
-tags: shell
+tags: 
+- linux
 ---
 shell参考教程
 <!-- more -->

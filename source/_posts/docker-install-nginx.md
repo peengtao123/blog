@@ -4,7 +4,7 @@ categories:
   - 开源
 date: 2019-08-04 20:33:50
 tags:
-- docker
+- 容器
 ---
 docker安装nginx的步骤
 <!-- more -->
