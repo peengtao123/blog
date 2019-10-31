@@ -50,7 +50,7 @@ widgets:
       - name: afternow
         desc: afternow
         icon: fas fa-cube
-        url: https://afternow.91fox.cn/
+        url: http://afternow.91fox.cn/
       - name: foo
         desc: foo
         icon: fas fa-cube
