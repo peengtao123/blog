@@ -47,6 +47,14 @@ widgets:
         desc: 易百教程
         icon: fas fa-cube
         url: https://www.yiibai.com/
+      - name: afternow
+        desc: afternow
+        icon: fas fa-cube
+        url: http://afternow.91fox.cn/
+      - name: foo
+        desc: foo
+        icon: fas fa-cube
+        url: https://foo.91fox.cn/
       - name: ESCAScript
         desc: ESCAScript 6入门
         icon: fas fa-cube
@@ -62,16 +70,7 @@ widgets:
       - name: Material X
         desc: Hexo博客主题
         icon: fas fa-cube
-        url: https://xaoxuu.com/wiki/material-x/
-  - widget: list
-    icon: fas fa-link
-    title: 特别链接
-    rows:
-      - name: 关于我 / 留言板
-        icon: fas fa-comment-dots
-        url: https://baidu.com/
-  - widget: related_posts
-    
+        url: https://xaoxuu.com/wiki/material-x/    
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: /
