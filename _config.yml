@@ -149,4 +149,4 @@ deploy:
   host: 47.89.13.13
   user: root
   privateKey: C:\Users\Administrator\.ssh\id_rsa
-  remotePath: /usr/local/apache-tomcat-8.5.46/webapps/ROOT
+  remotePath: /usr/local/nginx/html
