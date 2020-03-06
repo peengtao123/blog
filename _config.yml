@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 流浪的家
-subtitle: ''
-description: ''
-keywords:
+title: '流浪的家'
+subtitle: '沃达丰'
+description: '技术人员的家'
+keywords: 'java,spark'
 author: pengtao
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: demo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
