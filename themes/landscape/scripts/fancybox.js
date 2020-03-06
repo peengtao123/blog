@@ -22,3 +22,7 @@ hexo.extend.tag.register('fancybox', function(args){
     '</a>' +
     (title ? '<span class="caption">' + title + '</span>' : '');
 });
+
+hexo.extend.console.register('configaa', 'Display configuration', function(args){
+  console.log(args);
+});

@@ -3,80 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 流浪的家
-subtitle: 流浪的家
-description:
+title: Hexo---
+subtitle: ''
+description: ''
 keywords:
-author: pt
+author: John Doe
 language: zh-CN
-timezone:
-footer: '这是页脚文字，支持**markdown**语法。'
-# 导航栏，建议以/结尾。
-menu:
-  - name: home
-    icon: fas fa-home
-    url: /
-  - name: archives
-    icon: fas fa-archive
-    url: archives/
+timezone: ''
 
-# 侧边栏小部件
-widgets:
-  - widget: toc
-  - widget: tagcloud
-  - widget: category
-  - widget: author
-    avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
-    jinrishici: 柳暗花明又一村
-    social: true
-  - widget: plain
-    icon: fas fa-bullhorn
-    title: 注意啦～
-    body: '本站你若喜欢，请推荐给身边的朋友哦～'
-    more:
-      icon: fas fa-question-circle
-      url: https://xaoxuu.com/wiki/material-x/
-  - widget: list
-    icon: fas fa-medal
-    title: 精选项目
-    more:
-      icon: fas fa-arrow-right
-      url: https://xaoxuu.com/projects/
-    rows:
-      - name: 易百教程
-        desc: 易百教程
-        icon: fas fa-cube
-        url: https://www.yiibai.com/
-      - name: afternow
-        desc: afternow
-        icon: fas fa-cube
-        url: http://afternow.91fox.cn/
-      - name: foo
-        desc: foo
-        icon: fas fa-cube
-        url: https://foo.91fox.cn/
-      - name: ESCAScript
-        desc: ESCAScript 6入门
-        icon: fas fa-cube
-        url: http://es6.91fox.cn/
-      - name: NoticeBoard
-        desc: iOS开源库
-        icon: fas fa-cube
-        url: https://xaoxuu.com/wiki/noticeboard/
-      - name: HeartMate
-        desc: iOS应用程序
-        icon: fas fa-heartbeat
-        url: https://xaoxuu.com/heartmate/
-      - name: Material X
-        desc: Hexo博客主题
-        icon: fas fa-cube
-        url: https://xaoxuu.com/wiki/material-x/    
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: /
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -92,18 +35,23 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
-  tab_replace:
-  
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -112,11 +60,15 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -124,25 +76,27 @@ tag_map:
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
+## Use post's date for updated date unless set in front-matter
+use_date_for_updated: false
 
 # Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
 
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-material-x
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: git
-#   repo: https://github.com/peengtao123/pt.git
-#   branch: gh-pages
-#   message: messagepo
-
 deploy:
   type: sftp
   host: 47.89.13.13
