@@ -1,38 +1,33 @@
 ---
 title: spark
+date: 2019-03-28 22:32:36
+categories:
+- 大数据
+tags:
+- 大数据
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+这是摘要
 
-## Quick Start
+<!-- more -->
 
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+# [spark概述](http://spark.apache.org/docs/latest/)
+## 下载
+## 运行例子程序和shell
+## 运行集群
+## 深入学习
+### 编程指导
+### API文档
+### 部署指导
+### 其他文档
+### 外部资源
+# [开发入门](http://spark.apache.org/docs/latest/quick-start.html)
+# [部署入门](http://spark.apache.org/docs/latest/cluster-overview.html)
+# 配置
+# 监控
+# 调优
+# 调度
+# 安全
+# 硬件要求
+# 自己构建spark
+# 贡献功能给spark项目(https://spark.apache.org/contributing.html)
+# 第三方项目(https://spark.apache.org/third-party-projects.html)
