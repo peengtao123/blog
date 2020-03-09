@@ -6,4 +6,9 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ## Quick Start
 
+{% blockquote @DevDocs https://twitter.com/devdocs/status/356095192085962752 %}
+NEW: DevDocs now comes with syntax highlighting. http://devdocs.io
+{% endblockquote %}
+
 ## 后来，我仔细想明白
+{% fancybox /images/0.jpeg /hadoop "sdf" %}
