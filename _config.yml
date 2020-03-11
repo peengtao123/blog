@@ -95,6 +95,10 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+plantuml:
+  render: "PlantUMLServer"
+  server: "http://www.plantuml.com/plantuml"
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
