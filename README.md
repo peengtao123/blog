@@ -18,3 +18,13 @@ git clone --branch [tags标签] [git地址]
 ```sh
 ssh-copy-id -i root@47.89.13.13
 ```
+
+# git操作
+查看所有分支
+```sh
+git branch
+```
+切换分支到dev
+```sh
+git checkout dev
+```
