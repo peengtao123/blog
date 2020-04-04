@@ -118,4 +118,5 @@ deploy:
   host: 47.89.13.13
   user: root
   pass: c3!S8d#$54c4e
+  privateKey: C:\Users\Administrator\.ssh\id_rsa
   remotePath: /usr/local/nginx/html
