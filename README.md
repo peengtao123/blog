@@ -14,3 +14,7 @@ ssh-keygen -m PEM -t rsa
 ```bash
 git clone --branch [tags标签] [git地址]
 ```
+## 免密登录
+```sh
+ssh-copy-id -i root@47.89.13.13
+```
