@@ -1,4 +1,22 @@
-<% site.posts.forEach(post => { %>
- <h1><%- post.title %>o</h1>
- <div class="well well-lg"><p><%- post.content %> </p></div>\
-<% }) %>
+<div class="layui-container">
+
+
+    <% page.posts.forEach(post => { %>
+    <a href="<%- post.path %>"><h1><%- post.title %></h1></a>
+    <div><%- post.excerpt %></div>
+    <% }) %>
+
+
+
+    <div>
+        <a href="/">首页</a>
+        <a href="<%- page.next_link%>">下一页</a>
+    </div>
+    <%
+    let title = "page.title";
+
+    %>
+    <h1><% if (title){ %> <%- title %> <% } %></h1>
+</div>
+
+
