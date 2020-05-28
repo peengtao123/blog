@@ -7,7 +7,6 @@ tags:
 这是摘要
 <!-- more -->
 ## git 教程
-<<<<<<< HEAD
 git教程
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
@@ -15,6 +14,3 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 ```bash
 $ git add documentation/*.txt
 ```
-=======
-[git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
->>>>>>> 62df46d803486bc59c10df6a163c37aa351b9c2f
